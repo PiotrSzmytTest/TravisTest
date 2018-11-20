@@ -1,1 +1,4 @@
 language: swift
+os: osx
+xcode_workspace: TravisTest.xcworkspace
+xcode_scheme: TravisTest

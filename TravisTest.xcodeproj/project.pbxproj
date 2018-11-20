@@ -483,6 +483,7 @@
 			baseConfigurationReference = C152CB3F3424483617AB46A6 /* Pods-TravisTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HTG9R66Z7;
 				INFOPLIST_FILE = TravisTest/Info.plist;
@@ -492,6 +493,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.szmyt.TravisTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -502,6 +504,7 @@
 			baseConfigurationReference = 09A3AC8129485716A7FC4BF7 /* Pods-TravisTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HTG9R66Z7;
 				INFOPLIST_FILE = TravisTest/Info.plist;
@@ -511,6 +514,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.szmyt.TravisTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
