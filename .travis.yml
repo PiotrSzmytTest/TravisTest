@@ -1,4 +1,9 @@
 language: swift
 os: osx
+osx_image: xcode10.1
 xcode_workspace: TravisTest.xcworkspace
 xcode_scheme: TravisTest
+
+script:
+  - xctool -workspace TravisTest.xcworkspace -scheme TravisTest -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace TravisTest.xcworkspace -scheme TravisTestTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
